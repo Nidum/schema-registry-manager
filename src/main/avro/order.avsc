@@ -1,0 +1,22 @@
+{
+  "type": "record",
+  "name": "Order",
+  "namespace": "com.eleks.data",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "totalPrice",
+      "type": "double"
+    },
+    {
+      "name": "products",
+      "type": {
+        "type": "array",
+        "items": "com.eleks.data.Product"
+      }
+    }
+  ]
+}

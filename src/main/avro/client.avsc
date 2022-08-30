@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "Client",
+  "namespace": "com.eleks.data",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    },
+    {
+      "name": "race",
+      "type": "string"
+    }
+  ]
+}

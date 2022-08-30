@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "Product",
+  "namespace": "com.eleks.data",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "price",
+      "type": "double"
+    },
+    {
+      "name": "coinType",
+      "type": "com.eleks.data.CoinType"
+    }
+  ]
+}

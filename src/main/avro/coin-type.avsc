@@ -1,0 +1,6 @@
+{
+  "type" : "enum",
+  "name" : "CoinType",
+  "namespace": "com.eleks.data",
+  "symbols" : [ "cp", "sp", "gp" ]
+}
